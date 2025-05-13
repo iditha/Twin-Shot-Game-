@@ -163,7 +163,9 @@ The game follows several design patterns to ensure maintainability and scalabili
 - **Singleton Pattern**: Used in `Resources` to manage assets efficiently.
 - **Factory Pattern**: Implemented in `Factory.h` to dynamically create game objects.
 - **State Pattern**: Manages complex player states (jumping, moving, falling).
-- **Observer Pattern**: Updates UI elements in response to game events.
+- **Command Pattern**: Powers menu button actions with decoupled command execution.
+
+
 
 ## Acknowledgments
 Special thanks to our instructors and colleagues for their support throughout the development of this project.
